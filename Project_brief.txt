@@ -1,0 +1,14 @@
+force_calculator:
+
+Take inputs: 
+weight of climber
+weight of belayer
+length of rope paid out
+length of fall
+static elongation of the rope
+
+Return:
+fall factor
+force of the fall on the climber
+force of the fall on the belayer
+force of the fall on the piece of gear 
