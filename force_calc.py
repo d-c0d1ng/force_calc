@@ -17,12 +17,22 @@ class Fall:
         force_experienced = ((self.c_mass * 9.81) + ((self.c_mass * 9.81)**2 + 2 * (self.f_height/self.f_rope) * self.c_mass * 9.81 * force_constant)**0.5)/1000
         return force_experienced
 
-    
-  
-    
 
 #welcome string
 welcome = """Climbing Force Calculator
+
+|
+|  _   \()
+|/   \ / 
+||    /|
+||
+||
+||
+| \  
+|  \ 
+|   \  ()
+|    \/|
+|_____/_\___
 
 ------
 DISCLAIMER: While this programme does its best to approximate the forces experienced by the climber, the belayer and the gear in the event of a fall, these are only approximations.
